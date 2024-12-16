@@ -1,0 +1,16 @@
+<app-slider></app-slider>
+<section id="home">
+  <div class="container">
+    <h1 class="subheader">{{ globalText.home.nuestrasCategorias }}</h1>
+    <div class="card-list">
+      <div class="card" *ngFor="let categoria of categorias">
+        <a (click)="navigateProducts(categoria)">
+          <img src="{{ categoria.url_img }}" alt="{{ categoria.nombre }}" />
+          <div class="card-content">
+            <h3>{{ categoria.nombre }}</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
