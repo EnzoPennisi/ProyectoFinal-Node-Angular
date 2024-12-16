@@ -30,5 +30,5 @@ El proyecto cuenta con:
 ---
 
 ## Vista previa de la página
-(img/img1.png)
-(img/img2.png)  
+![Primera imagen](img/img1.png)  
+![Segunda imagen](img/img 2.png) 
